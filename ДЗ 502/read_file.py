@@ -5,6 +5,7 @@ from random import*
 def read_file():
     with open("index.txt", "r") as file:
         arr_i = file.readlines()
+    file.close()
     return arr_i
 
 # Случайный массив
