@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from tkinter import*
 from random import*
 import time
@@ -71,7 +72,7 @@ def do_ii2():
     name_1.config(bg = '#7CFC00')
 
 def do_ii3():
-    if balance.get() > 35:
+    if balance.get() > 37:
         temp = randrange(-10, 26)
     else:
         temp = balance.get() % 16
