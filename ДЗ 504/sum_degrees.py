@@ -1,5 +1,4 @@
 # -- coding: utf-8 --
-# 25*x^2 - 61*x + 77 = 0
 
 convert_line = lambda s: s.replace(' ', '').replace('*', '').replace('+', ' ').replace('-', ' -').replace('=0', '').replace('-x', '-1x').replace(' x', '1x').lstrip()
 
@@ -27,7 +26,7 @@ def result_dict(ar1, ar2):
     for key in d1:
         d1[key] += d2.get(key, 0)
         if key in d2:
-            del d2[key]
+            del d2[key] 
     d1.update(d2)
     d1 = dict(reversed(sorted(d1.items(), key = lambda x: x[0])))
     for key in d1:
@@ -60,7 +59,7 @@ def result_degree():
         else:
             res +=' ' + res_dict[key]
     res = convert_result(res)
-    with open ('res_sum_degree', 'w') as file:
+    with open ('res_sum_degree.txt', 'w') as file:
         file.write(res)
     file.close()
 
