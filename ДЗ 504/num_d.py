@@ -15,3 +15,4 @@ def given_accuracy(num, d):
 number = float(input('Введите число: '))
 count_signs = int (input('Введите точность: '))
 print(given_accuracy(number, count_signs))
+input()

@@ -77,7 +77,7 @@ def do_ii3():
     else:
         temp = balance.get() % 16
         if temp == 0:
-            temp = 0
+            temp = 0 
     balance.set(balance.get() - temp)
     balance_place.config(text = balance.get())
     player_2.set(player_2.get() + temp)

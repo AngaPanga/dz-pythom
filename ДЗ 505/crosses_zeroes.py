@@ -287,7 +287,7 @@ pm = Label (text= " ", font = "Arial 28", padx = 10, pady = 10)
 krestik = Frame(game)
 
 player = IntVar()
-array = [2,2,2,2,2,2,2,2,2]
+array = [2,2,2, 2,2,2, 2,2,2]
 img = PhotoImage(file = 'joystick.png')
 img2 = PhotoImage(file = 'cross.png')
 img3 = PhotoImage(file = 'zero.png')

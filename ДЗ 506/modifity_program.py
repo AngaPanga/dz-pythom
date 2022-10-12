@@ -8,7 +8,7 @@ def read_rus_file(name):
 
 def ext_w(arr, err):
     txt = ''
-    for i, el in enumerate(arr):
+    for i, el in enumerate(arr): # модифицирована строка.
         if err in el:            
             arr.pop(i)
     for i in arr:
