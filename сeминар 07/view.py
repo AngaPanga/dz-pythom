@@ -16,8 +16,3 @@ def show_calc_result(res):
 
 def show_convert_result(res):
     print(f'{res[0]} кг = {res[1]} г')
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
