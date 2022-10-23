@@ -1,0 +1,21 @@
+Создание и активация виртуального окружения в Windows:
+
+python -m venv venv
+source venv/Scripts/activate
+
+Создание и активация виртуального окружения в linux:
+
+python3 -m venv venv
+source venv/bin/activate
+
+Просмотр текущей версии python:
+python -V
+
+Просмотр установленных библиотек:
+pip freeze
+
+Создание файла requirements.txt:
+pip freeze > requirements.txt
+
+Установка всех библиотек из файла requirements.txt
+pip install -r requirements.txt
